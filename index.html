@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="&#x27;Merica JunkBoss LLC" property="og:title">
+
     
         <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/O8UC5IQFGWR6GQCHFNGA5EWZXAW0H9J959K4XME0.png" property="og:image">
         <meta content="&#x27;Merica JunkBoss LLC" property="twitter:title">
@@ -108,7 +109,7 @@
       
           <a target = "_blank"  x-on:click.prevent="open = true" class="" href="">Send us a Text</a>
             <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
-    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
             <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
         <div class="block mb-4 border border-gray-200 rounded-lg">
             <input type="text" name="first-name" id="0-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
@@ -147,11 +148,16 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
     <div class="flex justify-end p-8 lg:py-32 lg:px-16 lg:pl-10 lg:w-1/2">
         <div class="flex flex-col items-center lg:items-start justify-center w-full lg:max-w-lg">
             <h2 class="mb-3 text-3xl text-center font-extrabold  leading-none sm:text-4xl lg:text-7xl text-center lg:text-left">
-                &#x27;Merica JunkBoss LLC  
+                &#x27;Merica JunkBoss LLC 
             </h2>
             
             <h1 class="pt-5 lg:text-xl text-center lg:text-left">
-                The best waste management in  Northwest Indiana & surrounding areas.  You Call We Haul. No Job too Big or Small! We do the Heavy Lifting for You!
+                <!--  
+                    The best waste management in
+                     Northwest Indiana & surrounding areas.
+                     
+                  -->
+                You Call We Haul. No Job too Big or Small! We do the Heavy Lifting for You!
             </h1>
             
             <h2 class="py-5 mb-5 lg:text-xl text-center lg:text-left">
@@ -173,7 +179,7 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
  id="" type="button" x-on:click.prevent="open = true" class=" 
   w-full lg:w-auto 
 
-    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-blue-400 text-white hover:bg-white hover:text-blue-900">
+    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-blue-400 text-white hover:bg-white hover:text-blue-900 z-30">
     <h5 class="text-3xl font-extrabold">Call Now</h5> 
 </button>
 
@@ -185,7 +191,7 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
                 <div id="cover-button" class="w-full lg:w-auto ">
                     
  
-    <div id="" class="flex text-center justify-center items-center z-50 w-full lg:w-auto " x-data="{open: false}">
+    <div id="" class="flex text-center justify-center items-center  w-full lg:w-auto " x-data="{open: false}">
         
 <button 
  
@@ -196,12 +202,12 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
  id="" type="button" x-on:click.prevent="open = true" class=" 
   w-full lg:w-auto 
 
-    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-blue-400 text-white hover:bg-white hover:text-blue-900">
+    inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-blue-400 text-white hover:bg-white hover:text-blue-900 z-30">
     <h5 class="text-3xl font-extrabold">Send us a Text</h5> 
 </button>
 
         <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
-    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
             <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
         <div class="block mb-4 border border-gray-200 rounded-lg">
             <input type="text" name="first-name" id="1-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
@@ -236,7 +242,7 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
                 <div>
                     
  
-    <div id="" class="flex text-center justify-center items-center z-50 w-full lg:w-auto " x-data="{open: false}">
+    <div id="" class="flex text-center justify-center items-center  w-full lg:w-auto " x-data="{open: false}">
         
 <button 
  
@@ -247,12 +253,12 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
  id="side-button" type="button" x-on:click.prevent="open = true" class=" 
   
 
-   mb-3 fixed bottom-0 -right-80 z-10 mr-3 lg:mr-0 z-50 inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-blue-400 text-white hover:bg-white hover:text-blue-900">
+   mb-3 fixed bottom-0 -right-80 z-10 mr-3 lg:mr-0 z-40 inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-blue-400 text-white hover:bg-white hover:text-blue-900 z-30">
     <h5 class="text-3xl font-extrabold">Send us a Text</h5> 
 </button>
 
         <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
-    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
             <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
         <div class="block mb-4 border border-gray-200 rounded-lg">
             <input type="text" name="first-name" id="2-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
@@ -290,7 +296,9 @@ class="flex relative flex-col w-full  bg-blue-900 text-white  lg:flex-row lg:fle
     <div class="relative order-first lg:order-last block lg:w-1/2 ">
 
     
-        <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/QYHCGTRM52IU0C8NLIXM6JTOFIPYWWM0LAZQMUUR.gif"  alt = "Main hero image of &#x27;Merica JunkBoss LLC performing Waste Management work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+        
+            <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/QYHCGTRM52IU0C8NLIXM6JTOFIPYWWM0LAZQMUUR.gif"   alt = "Main hero image of &#x27;Merica JunkBoss LLC performing Waste Management work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+            
     
     </div>
 
@@ -363,6 +371,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
         <br>
     </div>
 
+                
                 
                 
             
@@ -513,86 +522,72 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
     
     
     
+    
 
     <div id="our-work" class="relative mb-0 w-full pt-12 overflow-hidden   bg-white text-blue-900   md:pt-20 xl:pt-20 xl:pb-20">
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2  style= "color:#002868" class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
             <h2  style= "color:#BF0A30" class="my-3 mb-10 text-xl font-medium  text-blue-400  text-center">See why our customers love us</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/F42SGTQIXR84Z0Q265RZOPIRCS9BEQQF0HLAAB22.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/JPILY4I354FVZP0UBJY43ROEBCHP8KKH9EFPQTNH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/W7VRHYRWY5Y3GHZSPL14F2CGM3YE9U2BR67C9VMF.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/80FJXSMKKWRAXA34WSIYCXG5U4EOFJH2KCBF8QZJ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/133GIXXKIJOYQS0RF06OJS2QC59FI7ZLEP5REEGB.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/A6S3H87ZPHZVVD0PT9EPAR1AP6J8TJPFCO4CZ3XI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/FKSU6A571SX1U6JU23D66W7HY90L8MBYB1HKMIKH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0UHBA9X9X852YIAJW4BAWWNSD5VXHVH8CXT76SIP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZXCTKN9XRZTSQH01LBIOT4GAXUTI35P16UJRWQ3M.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Y4EE9HAAJCDVFY81JNK0JV6C362G40M9VFVRXNWE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CFIBDBRXEGU3W6TORLKICDQ45UBDERDCTXXDCK6I.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/65JOX0BVH3SXEUSF7XEXQYLK8NUWNO7RTMCJKY4Q.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/NOZCMG4SC91TPZ4433XYBW3GHZRYDA4H2R0V1ZER.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/30Z9M0RR7VOHNPUDCVA33E033GP8BDZAZEZ7B61R.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ME88RUOZFHZZLM8NNR2UQ9O7QKUS0SDKJRWQQKQR.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/F42SGTQIXR84Z0Q265RZOPIRCS9BEQQF0HLAAB22.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/JPILY4I354FVZP0UBJY43ROEBCHP8KKH9EFPQTNH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/W7VRHYRWY5Y3GHZSPL14F2CGM3YE9U2BR67C9VMF.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/80FJXSMKKWRAXA34WSIYCXG5U4EOFJH2KCBF8QZJ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/133GIXXKIJOYQS0RF06OJS2QC59FI7ZLEP5REEGB.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/A6S3H87ZPHZVVD0PT9EPAR1AP6J8TJPFCO4CZ3XI.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/FKSU6A571SX1U6JU23D66W7HY90L8MBYB1HKMIKH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/0UHBA9X9X852YIAJW4BAWWNSD5VXHVH8CXT76SIP.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/ZXCTKN9XRZTSQH01LBIOT4GAXUTI35P16UJRWQ3M.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/Y4EE9HAAJCDVFY81JNK0JV6C362G40M9VFVRXNWE.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/CFIBDBRXEGU3W6TORLKICDQ45UBDERDCTXXDCK6I.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/65JOX0BVH3SXEUSF7XEXQYLK8NUWNO7RTMCJKY4Q.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/NOZCMG4SC91TPZ4433XYBW3GHZRYDA4H2R0V1ZER.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/30Z9M0RR7VOHNPUDCVA33E033GP8BDZAZEZ7B61R.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/ME88RUOZFHZZLM8NNR2UQ9O7QKUS0SDKJRWQQKQR.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/F42SGTQIXR84Z0Q265RZOPIRCS9BEQQF0HLAAB22.jpeg"  alt = "Photo number 1 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/F42SGTQIXR84Z0Q265RZOPIRCS9BEQQF0HLAAB22.jpeg"  alt = "Photo number 1 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JPILY4I354FVZP0UBJY43ROEBCHP8KKH9EFPQTNH.jpeg"  alt = "Photo number 2 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/JPILY4I354FVZP0UBJY43ROEBCHP8KKH9EFPQTNH.jpeg"  alt = "Photo number 2 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/W7VRHYRWY5Y3GHZSPL14F2CGM3YE9U2BR67C9VMF.jpeg"  alt = "Photo number 3 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/W7VRHYRWY5Y3GHZSPL14F2CGM3YE9U2BR67C9VMF.jpeg"  alt = "Photo number 3 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/80FJXSMKKWRAXA34WSIYCXG5U4EOFJH2KCBF8QZJ.jpeg"  alt = "Photo number 4 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/80FJXSMKKWRAXA34WSIYCXG5U4EOFJH2KCBF8QZJ.jpeg"  alt = "Photo number 4 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/133GIXXKIJOYQS0RF06OJS2QC59FI7ZLEP5REEGB.jpeg"  alt = "Photo number 5 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/133GIXXKIJOYQS0RF06OJS2QC59FI7ZLEP5REEGB.jpeg"  alt = "Photo number 5 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/A6S3H87ZPHZVVD0PT9EPAR1AP6J8TJPFCO4CZ3XI.jpeg"  alt = "Photo number 6 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/A6S3H87ZPHZVVD0PT9EPAR1AP6J8TJPFCO4CZ3XI.jpeg"  alt = "Photo number 6 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/FKSU6A571SX1U6JU23D66W7HY90L8MBYB1HKMIKH.jpeg"  alt = "Photo number 7 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/FKSU6A571SX1U6JU23D66W7HY90L8MBYB1HKMIKH.jpeg"  alt = "Photo number 7 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0UHBA9X9X852YIAJW4BAWWNSD5VXHVH8CXT76SIP.jpeg"  alt = "Photo number 8 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0UHBA9X9X852YIAJW4BAWWNSD5VXHVH8CXT76SIP.jpeg"  alt = "Photo number 8 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZXCTKN9XRZTSQH01LBIOT4GAXUTI35P16UJRWQ3M.jpeg"  alt = "Photo number 9 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ZXCTKN9XRZTSQH01LBIOT4GAXUTI35P16UJRWQ3M.jpeg"  alt = "Photo number 9 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Y4EE9HAAJCDVFY81JNK0JV6C362G40M9VFVRXNWE.jpeg"  alt = "Photo number 10 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/Y4EE9HAAJCDVFY81JNK0JV6C362G40M9VFVRXNWE.jpeg"  alt = "Photo number 10 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CFIBDBRXEGU3W6TORLKICDQ45UBDERDCTXXDCK6I.jpeg"  alt = "Photo number 11 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/CFIBDBRXEGU3W6TORLKICDQ45UBDERDCTXXDCK6I.jpeg"  alt = "Photo number 11 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/65JOX0BVH3SXEUSF7XEXQYLK8NUWNO7RTMCJKY4Q.jpeg"  alt = "Photo number 12 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/65JOX0BVH3SXEUSF7XEXQYLK8NUWNO7RTMCJKY4Q.jpeg"  alt = "Photo number 12 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/NOZCMG4SC91TPZ4433XYBW3GHZRYDA4H2R0V1ZER.jpeg"  alt = "Photo number 13 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/NOZCMG4SC91TPZ4433XYBW3GHZRYDA4H2R0V1ZER.jpeg"  alt = "Photo number 13 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/30Z9M0RR7VOHNPUDCVA33E033GP8BDZAZEZ7B61R.jpeg"  alt = "Photo number 14 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/30Z9M0RR7VOHNPUDCVA33E033GP8BDZAZEZ7B61R.jpeg"  alt = "Photo number 14 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                              
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ME88RUOZFHZZLM8NNR2UQ9O7QKUS0SDKJRWQQKQR.jpeg"  alt = "Photo number 15 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ME88RUOZFHZZLM8NNR2UQ9O7QKUS0SDKJRWQQKQR.jpeg"  alt = "Photo number 15 of &#x27;Merica JunkBoss LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                  
                                     
@@ -674,7 +669,6 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
             
 </div>
-
         
     
     
@@ -696,7 +690,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                 <div class="items-start justify-start w-full mt-12 mb-4 lg:flex lg:flex-wrap">
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -723,9 +717,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -752,9 +747,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -781,9 +777,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -810,9 +807,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -839,9 +837,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -868,9 +867,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -897,9 +897,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -926,9 +927,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -955,9 +957,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
-            
+                    
                     <div class="flex flex-col items-center lg:items-start justify-center w-full h-auto mb-12 lg:w-1/2">
                     <div class="flex items-center lg:items-start ">
                         
@@ -984,6 +987,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     </div>
                     
                     </div>
+                    
 
                     
                 </div>  
